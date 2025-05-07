@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(assets/Free\ Vector\ _\ Classic\ retro\ sunburst\ rays\ background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Cover full screen without distortion */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+}
+.main{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page{
+    background-color: #aad7b8;
+
+    width: 82%;
+    height: 90vh;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px black;;
+}
+.box{
+    background-color: ;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.jedi{
+   
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.info{
+    background-color: #fff6e5;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 83%;
+    height: 85vh;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px black;;
+}
+.text{
+    padding: 15px;
+    
+}
+.table{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+.one{
+   padding: 10px;
+}
+.one i{
+    padding-right: 7px;
+}
+.nav{
+    background-color: #fff6e5;
+    padding: 10px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+#arrow2{
+   margin-left: 10px;
+   margin-right: auto;
+}
+.arrow{
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.input i{
+    font-size: 13px;
+}
+.input{
+    border: 2px solid black;
+    padding: 1px 0px 1px 3px;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+.dropdown div{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+
+}
+.dropdown div:hover{
+    background:#f0f0f0;
+}
+input{
+    padding-left: 3px;
+    border: none;
+}
+.bell, .human{
+    border: 2px solid black;
+    font-size: 13px;
+    padding: 3px;
+}
+.trainer-info{
+    width: 700px;
+    
+}
+.trainer{
+    background-color: #fff6e5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.train{
+    padding: 10px 0px 10px 20px;
+    font-size: 35px;
+    /* font-family: "Figtree", sans-serif; */
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+  font-style: normal;
+  
+}
+.trainer-box{
+    background-color: #f7c236;
+    border: 2px solid black;
+    /* width: 70%; */
+    height: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* position: relative;
+     */
+     box-shadow: 3px 3px 2px black;;
+}
+.img{
+    border: 2px solid black;
+    width: 200px;
+    height: 220px;
+    margin: 15px;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 🔥 Fills the div while maintaining aspect ratio */
+}
+.nav-2{
+    padding-top: 10px;
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    /* transform: translateX(-20px); */
+}
+#name{
+    margin-right: auto;
+}
+.name{
+  font-size: 20px;
+  font-family: "Alfa Slab One", serif;
+}
+.nav-2 i{
+    border: 2px solid black;
+    font-size: 13px;
+    padding: 2px;
+    
+}
+.mail{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+ 
+}
+.b1{
+    background-color: #f6d47a;
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    /* transform: translateX(-120px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+   
+}
+#exp , #platform, #teaching , #courses{
+    padding-left: 4px;
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.b2{
+   font-size: 16px;
+
+}
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 400px;
+}
+.p{
+    font-size: 14px;
+    color: rgb(92, 87, 87);
+}
+.ass{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items:center */
+}
+.request{
+    padding: 10px;
+    width: 500px;
+}
+.request button{
+    width: 200px;
+}
+.work{
+    padding: 10px;
+    margin: 10px;
+}
+.heading{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    padding: 9px;
+}
+.work-exp{
+    
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:left;
+    gap: 10px;
+    box-shadow: 3px 3px 2px black;;
+    
+}
+.flex{
+    padding-left: 4px;
+   padding-top: 10px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.li i{
+    border: 2px solid black;
+    padding: 4px;
+}
+ul{
+    list-style: none;
+}
+.head2{
+    font-family: "Alfa Slab One", serif;
+    /* font-weight: 400; */
+  font-style: normal;
+    font-size: 30px;
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.review{
+    display: flex;
+    gap: 10px;
+}
+.stars{
+    background-color: #fdc6ff;
+   margin-top: 2px;
+   margin-left: 20px;
+    border: 2px solid black;
+   width: 300px;
+   height: 150px;
+   box-shadow: 3px 3px 2px black;;
+}
+.point{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.button{
+    margin-left: auto;
+}
+.people{
+    border: 2px solid black;
+    width: 190px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 3px 2px black;
+    background-color: white;
+}
+.minNav{
+    display: flex;
+    justify-content:space-between;
+}
+#seven{
+    align-self:flex-end;
+}
+.human{
+    position: relative;
+    cursor: pointer;
+}
+.dialog-box {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* bottom: 100%; */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgb(95, 51, 51);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    /* border-radius: 5px; */
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Prevents clicking */
+    gap: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+.p1 , .me{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.face img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid rgb(34, 5, 5);
+}
+.show {
+    opacity: 1;
+}
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.bell {
+    /* font-size: 30px;
+    display: inline-block; */
+    cursor: pointer;
+}
+
+.animate {
+    animation: pop 0.5s ease-in-out;
+    
+}
+.btn1 , .btn2{
+    padding: 3px;
+    font-weight: 600;
+   
+}
+
+.btn2{
+    border: 2px solid black;
+   
+}
+.ladder{
+    color: white;
+    background-color: black;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+
+/* dialog-box */
+.overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.dialog-box2 {
+    background:#f7c236;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+    font-family:  "Alfa Slab One", serif;
+    box-shadow: 2px 2px 2px black;
+}
+
+/* Close button style */
+.close-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: rgb(118, 16, 16);
+    color:rgb(185, 137, 137);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Show class to display the dialog */
+.show {
+    display: flex;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    /* z-index: -1; */
+    /* transition: transform 0.2s ease-in; */
+}
+.btn1, .btn2:hover{
+  cursor: pointer;
+ 
+}
+.btn1:active {
+    background-color:rgb(3, 53, 53);
+    /* transform: translateY(5px); */
+    /* z-index: 2; */
+}
+.btn2:active{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.button button{
+    padding: 3px 6px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+.button button:active{
+    background-color: black;
+    color: white;
+}
+
